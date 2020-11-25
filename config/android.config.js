@@ -12,7 +12,9 @@ config.capabilities = [{
     //deviceName: AndroidInfo.deviceName(),
     udid: AndroidInfo.UDID(),
     platformVersion: AndroidInfo.platFormVersion(),
-    app: path.resolve(`./apps/${AndroidInfo.appName()}`)
+    // app: path.resolve(`./apps/${AndroidInfo.appName()}`),
+    appPackage: "com.loginexample",
+    appActivity: "com.loginexample.MainActivity",
 }];
 
 config.cucumberOpts.tagExpression = '@androidApp'; // pass tag to run tests specific to android

@@ -99,11 +99,11 @@ exports.config = {
     // ...  
     }]
 ],
-  appium: {
-    command: "appium",
-    args: {},
-  },
- 
+  // appium: {
+  //   // command: "appium",
+  //   args: {},
+  // },
+  hostname: "192.168.1.2",
   port: 4723,
   path: "/wd/hub",
   // Framework you want to run your specs with.
