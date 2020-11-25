@@ -14,9 +14,9 @@ class CelsiusToFahrenhietConvertorPage {
   }
 
   launchApp() {
-    ActionHelper.launchApp();
+    // ActionHelper.launchApp();
     ActionHelper.switchToNativeContext();
-    ActionHelper.pause(10);
+    ActionHelper.pause(5);
   }
 
   enterCelsius(celsiusValue) {
