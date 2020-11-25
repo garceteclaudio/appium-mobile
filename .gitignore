@@ -6,7 +6,7 @@
 ### Node ###
 # Logs
 npm-debug.log*
-wdio-appium.log
+wdio-appium.log*
 
 # Dependency directories
 node_modules/
