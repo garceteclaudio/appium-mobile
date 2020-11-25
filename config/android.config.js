@@ -9,7 +9,7 @@ config.capabilities = [{
     //fullReset: false,
     //maxInstances: 1,
     automationName: 'uiautomator2',
-    deviceName: AndroidInfo.deviceName(),
+    //deviceName: AndroidInfo.deviceName(),
     udid: AndroidInfo.UDID(),
     platformVersion: AndroidInfo.platFormVersion(),
     app: path.resolve(`./apps/${AndroidInfo.appName()}`)
