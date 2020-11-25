@@ -10,6 +10,7 @@ config.capabilities = [{
     maxInstances: 1,
     automationName: 'uiautomator2',
     deviceName: AndroidInfo.deviceName(),
+    udid: AndroidInfo.UDID(),
     platformVersion: AndroidInfo.platFormVersion(),
     app: path.resolve(`./apps/${AndroidInfo.appName()}`)
 }];
@@ -17,3 +18,6 @@ config.capabilities = [{
 config.cucumberOpts.tagExpression = '@androidApp'; // pass tag to run tests specific to android
 
 exports.config = config;
+
+//emulator -list-avds
+// emulator -avd Pixel_3_API_29

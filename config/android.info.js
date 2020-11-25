@@ -1,6 +1,9 @@
 class AndroidInfo {
   static deviceName() {
-    return "emulator-5554"; // pass the udid or devicename
+    return "Nexus 5X"; // pass the udid or devicename
+  }
+  static UDID() {
+    return "emulator-5554"; // pass the UDID
   }
 
   static platFormVersion() {
