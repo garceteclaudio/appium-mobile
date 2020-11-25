@@ -6,9 +6,11 @@
 ### Node ###
 # Logs
 npm-debug.log*
+wdio-appium.log
 
 # Dependency directories
 node_modules/
+reports/
 
 # Optional npm cache directory
 .npm
