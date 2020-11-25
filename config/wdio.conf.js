@@ -93,17 +93,13 @@ exports.config = {
     ['appium', {
       // To use your own installation of Appium, e.g. globally installed, 
       // specify the command which should be started.
-      // command : 'appium',
+      command : 'appium',
       logPath : './'
     // Appium service options here
     // ...  
     }]
 ],
-  // appium: {
-  //   // command: "appium",
-  //   args: {},
-  // },
-  hostname: "192.168.1.2",
+  // hostname: "",
   port: 4723,
   path: "/wd/hub",
   // Framework you want to run your specs with.
