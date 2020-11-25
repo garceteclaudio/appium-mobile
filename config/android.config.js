@@ -5,7 +5,7 @@ const path = require('path');
 // Appium capabilities
 config.capabilities = [{
     platformName: 'Android',
-    noReset: true,
+    noReset: false,
     //fullReset: false,
     //maxInstances: 1,
     automationName: 'uiautomator2',
