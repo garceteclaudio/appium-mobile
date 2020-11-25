@@ -6,8 +6,8 @@ const path = require('path');
 config.capabilities = [{
     platformName: 'Android',
     noReset: true,
-    fullReset: false,
-    maxInstances: 1,
+    //fullReset: false,
+    //maxInstances: 1,
     automationName: 'uiautomator2',
     deviceName: AndroidInfo.deviceName(),
     udid: AndroidInfo.UDID(),
