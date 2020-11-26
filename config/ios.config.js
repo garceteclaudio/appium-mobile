@@ -19,3 +19,6 @@ config.capabilities = [{
 config.cucumberOpts.tagExpression = '@iosApp';// pass tag to run tests specific to ios
 
 exports.config = config;
+
+
+// npm cache clean --force
