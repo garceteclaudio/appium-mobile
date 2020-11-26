@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Boilerplate project to run native and browser for android and ios using cucumber with page object pattern",
   "scripts": {
+    "installappium": "npm install -g appium",
     "android": "wdio ./config/android.config.js",
     "ios": "wdio ./config/ios.config.js",
     "androidBrowser": "wdio ./config/androidBrowser.config.js",

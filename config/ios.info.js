@@ -1,15 +1,20 @@
 class IosInfo {
+
+    // figura con el siguiente script en mac:
+    // xcrun simctl list | egrep '(Booted)'
+    // instruments -s devices
     static deviceName() {
-        return 'iPhone Simulator'; // pass the device name
+      return "iphone11ios13"; // pass the device name
     }
-
+  
     static platFormVersion() {
-        return '12.4'; // pass the platform version
+      return "13.0"; // pass the platform version
     }
-
+  
     static appName() {
-        return 'com.apple.Preferences'; // pass the bundleid or ipa name
+      return "loginExample.app"; // pass the bundleid or ipa name
     }
-}
-
-module.exports = IosInfo;
+  }
+  
+  module.exports = IosInfo;
+  

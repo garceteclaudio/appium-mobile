@@ -16,7 +16,7 @@ class CelsiusToFahrenhietConvertorPage {
   launchApp() {
     // ActionHelper.launchApp();
     ActionHelper.switchToNativeContext();
-    ActionHelper.pause(5);
+    ActionHelper.pause(3);
   }
 
   enterCelsius(celsiusValue) {

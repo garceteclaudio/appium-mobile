@@ -1,7 +1,7 @@
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
 [35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","noReset":false,"automationName":"uiautomator2","udid":"emulator-5554","platformVersion":"10","app":"/Users/cgarcete/Desktop/proyectos propios/bitriseTestAuto/appium-mobile/apps/loginExample.apk","appPackage":"com.loginexample","appActivity":"com.loginexample.MainActivity"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","noReset":false,"automationName":"uiautomator2","udid":"emulator-5554","platformVersion":"10","app":"/Users/cgarcete/Desktop/proyectos propios/bitriseTestAuto/appium-mobile/apps/loginExample.apk","appPackage":"com.loginexample","appActivity":"com.loginexample.MainActivity"}}[39m
 [debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","noReset":false,"automationName":"uiautomator2","udid":"emulator-5554","platformVersion":"10","app":"/Users/cgarcete/Desktop/proyectos propios/bitriseTestAuto/appium-mobile/apps/loginExample.apk","appPackage":"com.loginexample","appActivity":"com.loginexample.MainActivity"},null,{"alwaysMatch":{"platformName":"Android","noReset":false,"automationName":"uiautomator2","udid":"emulator-5554","platformVersion":"10","app":"/Users/cgarcete/Desktop/proyectos propios/bitriseTestAuto/appium-mobile/apps/loginExample.apk","appPackage":"com.loginexample","appActivity":"com.loginexample.MainActivity"},"firstMatch":[{}]}]
-[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1606327850167 (15:10:50 GMT-0300 (Argentina Standard Time))
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1606404032799 (12:20:32 GMT-0300 (Argentina Standard Time))
 [35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
 [35m[BaseDriver][39m   noReset
 [35m[BaseDriver][39m   automationName
@@ -27,7 +27,7 @@
 [debug] [35m[BaseDriver][39m     {}
 [debug] [35m[BaseDriver][39m   ]
 [debug] [35m[BaseDriver][39m }
-[35m[BaseDriver][39m Session created with session id: bd148c12-cc62-4508-9a9b-63dc24311aff
+[35m[BaseDriver][39m Session created with session id: 3e8d1efd-9317-44be-a79b-c08bb10fabbc
 [35m[BaseDriver][39m Using local app '/Users/cgarcete/Desktop/proyectos propios/bitriseTestAuto/appium-mobile/apps/loginExample.apk'
 [debug] [35m[UiAutomator2][39m Checking whether app is actually present
 [35m[ADB][39m Found 8 'build-tools' folders under '/Users/cgarcete/Library/Android/sdk' (newest first):
@@ -125,7 +125,7 @@
 [debug] [35m[ADB][39m Running '/Users/cgarcete/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 features'
 [35m[ADB][39m The application at '/Users/cgarcete/Desktop/proyectos propios/bitriseTestAuto/appium-mobile/apps/loginExample.apk' will not be cached, because the device under test has confirmed the support of streamed installs
 [debug] [35m[ADB][39m Running '/Users/cgarcete/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 install '/Users/cgarcete/Desktop/proyectos propios/bitriseTestAuto/appium-mobile/apps/loginExample.apk''
-[35m[ADB][39m The installation of 'loginExample.apk' took 2394ms
+[35m[ADB][39m The installation of 'loginExample.apk' took 6866ms
 [debug] [35m[ADB][39m Install command stdout: Performing Streamed Install
 [debug] [35m[ADB][39m Success
 [debug] [35m[UiAutomator2][39m Performing shallow cleanup of automation leftovers
@@ -138,6 +138,9 @@
 [debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
 [debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
 [35m[WD Proxy][39m socket hang up
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+[35m[WD Proxy][39m socket hang up
 [debug] [35m[Instrumentation][39m io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
 [debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
 [debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
@@ -145,59 +148,60 @@
 [debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
 [debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
 [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
-[debug] [35m[UiAutomator2][39m The initialization of the instrumentation process took 3133ms
+[debug] [35m[UiAutomator2][39m The initialization of the instrumentation process took 4198ms
 [debug] [35m[WD Proxy][39m Matched '/session' to command name 'createSession'
 [debug] [35m[WD Proxy][39m Proxying [POST /session] to [POST http://127.0.0.1:8200/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","noReset":false,"automationName":"uiautomator2","udid":"emulator-5554","platformVersion":"10","app":"/Users/cgarcete/Desktop/proyectos propios/bitriseTestAuto/appium-mobile/apps/loginExample.apk","appPackage":"com.loginexample","appActivity":"com.loginexample.MainActivity"},"platformName":"Android","noReset":false,"automationName":"uiautomator2","udid":"emulator-5554","platformVersion":"10","app":"/Users/cgarcete/Desktop/proyectos propios/bitriseTestAuto/appium-mobile/apps/loginExample.apk","appPackage":"com.loginexample","appActivity":"com.loginexample.MainActivity","deviceName":"emulator-5554","deviceUDID":"emulator-5554"}],"alwaysMatch":{}}}
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"ddef3fae-926c-4903-933e-1e52315cb1dc","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","noReset":false,"automationName":"uiautomator2","udid":"emulator-5554","platformVersion":"10","app":"/Users/cgarcete/Desktop/proyectos propios/bitriseTestAuto/appium-mobile/apps/loginExample.apk","appPackage":"com.loginexample","appActivity":"com.loginexample.MainActivity"},"platformName":"Android","noReset":false,"automationName":"uiautomator2","udid":"emulator-5554","platformVersion":"10","app":"/Users/cgarcete/Desktop/proyectos propios/bitriseTestAuto/appium-mobile/apps/loginExample.apk","appPackage":"com.loginexample","appActivity":"com.loginexample.MainActivity","deviceName":"emulator-5554","deviceUDID":"emulator-5554"}],"alwaysMatch":{}},"sessionId":"ddef3fae-926c-4903-933e-1e52315cb1...
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"6960ea39-ad19-4a4f-a950-141bab330d07","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","noReset":false,"automationName":"uiautomator2","udid":"emulator-5554","platformVersion":"10","app":"/Users/cgarcete/Desktop/proyectos propios/bitriseTestAuto/appium-mobile/apps/loginExample.apk","appPackage":"com.loginexample","appActivity":"com.loginexample.MainActivity"},"platformName":"Android","noReset":false,"automationName":"uiautomator2","udid":"emulator-5554","platformVersion":"10","app":"/Users/cgarcete/Desktop/proyectos propios/bitriseTestAuto/appium-mobile/apps/loginExample.apk","appPackage":"com.loginexample","appActivity":"com.loginexample.MainActivity","deviceName":"emulator-5554","deviceUDID":"emulator-5554"}],"alwaysMatch":{}},"sessionId":"6960ea39-ad19-4a4f-a950-141bab330d...
 [35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
-[debug] [35m[WD Proxy][39m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8200/wd/hub/session/ddef3fae-926c-4903-933e-1e52315cb1dc/appium/device/info] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"ddef3fae-926c-4903-933e-1e52315cb1dc","value":{"androidId":"af228fb252892ba5","apiVersion":"29","bluetooth":null,"brand":"google","carrierName":"Android","displayDensity":440,"locale":"en_US","manufacturer":"Google","model":"Android SDK built for x86","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":1048576,"linkUpstreamBandwidthKbps":1048576,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-30,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":null,"isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":0,"subtypeName":"","type":1,"typeName":"WIFI"}],"platformVersion":"10","realDisplaySize":"1080x2160","timeZone":"America/Argentina/Buenos_Aires"}}
+[debug] [35m[WD Proxy][39m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8200/wd/hub/session/6960ea39-ad19-4a4f-a950-141bab330d07/appium/device/info] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"6960ea39-ad19-4a4f-a950-141bab330d07","value":{"androidId":"af228fb252892ba5","apiVersion":"29","bluetooth":null,"brand":"google","carrierName":"Android","displayDensity":440,"locale":"en_US","manufacturer":"Google","model":"Android SDK built for x86","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":1048576,"linkUpstreamBandwidthKbps":1048576,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-30,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":null,"isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":0,"subtypeName":"","type":1,"typeName":"WIFI"}],"platformVersion":"10","realDisplaySize":"1080x2160","timeZone":"America/Argentina/Buenos_Aires"}}
 [debug] [35m[ADB][39m Running '/Users/cgarcete/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window'
 [35m[AndroidDriver][39m Screen already unlocked, doing nothing
 [35m[UiAutomator2][39m Starting 'com.loginexample/com.loginexample.MainActivity and waiting for 'com.loginexample/com.loginexample.MainActivity'
 [debug] [35m[ADB][39m Running '/Users/cgarcete/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start -W -n com.loginexample/com.loginexample.MainActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
-[debug] [35m[WD Proxy][39m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8200/wd/hub/session/ddef3fae-926c-4903-933e-1e52315cb1dc/appium/device/pixel_ratio] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"ddef3fae-926c-4903-933e-1e52315cb1dc","value":2.75}
+[debug] [35m[WD Proxy][39m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8200/wd/hub/session/6960ea39-ad19-4a4f-a950-141bab330d07/appium/device/pixel_ratio] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"6960ea39-ad19-4a4f-a950-141bab330d07","value":2.75}
 [debug] [35m[WD Proxy][39m Matched '/appium/device/system_bars' to command name 'getSystemBars'
-[debug] [35m[WD Proxy][39m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8200/wd/hub/session/ddef3fae-926c-4903-933e-1e52315cb1dc/appium/device/system_bars] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"ddef3fae-926c-4903-933e-1e52315cb1dc","value":{"statusBar":66}}
+[debug] [35m[WD Proxy][39m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8200/wd/hub/session/6960ea39-ad19-4a4f-a950-141bab330d07/appium/device/system_bars] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"6960ea39-ad19-4a4f-a950-141bab330d07","value":{"statusBar":66}}
 [debug] [35m[WD Proxy][39m Matched '/window/current/size' to command name 'getWindowSize'
-[debug] [35m[WD Proxy][39m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8200/wd/hub/session/ddef3fae-926c-4903-933e-1e52315cb1dc/window/current/size] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"ddef3fae-926c-4903-933e-1e52315cb1dc","value":{"height":2028,"width":1080}}
-[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session bd148c12-cc62-4508-9a9b-63dc24311aff added to master session list
-[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1606327859383 (15:10:59 GMT-0300 (Argentina Standard Time))
-[debug] [35m[W3C (bd148c12)][39m Cached the protocol value 'W3C' for the new session bd148c12-cc62-4508-9a9b-63dc24311aff
-[debug] [35m[W3C (bd148c12)][39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","noReset":false,"automationName":"uiautomator2","udid":"emulator-5554","platformVersion":"10","app":"/Users/cgarcete/Desktop/proyectos propios/bitriseTestAuto/appium-mobile/apps/loginExample.apk","appPackage":"com.loginexample","appActivity":"com.loginexample.MainActivity"},"platformName":"Android","noReset":false,"automationName":"uiautomator2","udid":"emulator-5554","platformVersion":"10","app":"/Users/cgarcete/Desktop/proyectos propios/bitriseTestAuto/appium-mobile/apps/loginExample.apk","appPackage":"com.loginexample","appActivity":"com.loginexample.MainActivity","deviceName":"emulator-5554","deviceUDID":"emulator-5554","deviceApiLevel":29,"deviceScreenSize":"1080x2160","deviceScreenDensity":440,"deviceModel":"Android SDK built for x86","deviceManufacturer":"G...
-[35m[HTTP][39m [37m<-- POST /session [39m[32m200[39m [90m9221 ms - 1189[39m
+[debug] [35m[WD Proxy][39m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8200/wd/hub/session/6960ea39-ad19-4a4f-a950-141bab330d07/window/current/size] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"6960ea39-ad19-4a4f-a950-141bab330d07","value":{"height":2028,"width":1080}}
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 3e8d1efd-9317-44be-a79b-c08bb10fabbc added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1606404049479 (12:20:49 GMT-0300 (Argentina Standard Time))
+[debug] [35m[W3C (3e8d1efd)][39m Cached the protocol value 'W3C' for the new session 3e8d1efd-9317-44be-a79b-c08bb10fabbc
+[debug] [35m[W3C (3e8d1efd)][39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","noReset":false,"automationName":"uiautomator2","udid":"emulator-5554","platformVersion":"10","app":"/Users/cgarcete/Desktop/proyectos propios/bitriseTestAuto/appium-mobile/apps/loginExample.apk","appPackage":"com.loginexample","appActivity":"com.loginexample.MainActivity"},"platformName":"Android","noReset":false,"automationName":"uiautomator2","udid":"emulator-5554","platformVersion":"10","app":"/Users/cgarcete/Desktop/proyectos propios/bitriseTestAuto/appium-mobile/apps/loginExample.apk","appPackage":"com.loginexample","appActivity":"com.loginexample.MainActivity","deviceName":"emulator-5554","deviceUDID":"emulator-5554","deviceApiLevel":29,"deviceScreenSize":"1080x2160","deviceScreenDensity":440,"deviceModel":"Android SDK built for x86","deviceManufacturer":"G...
+[35m[HTTP][39m [37m<-- POST /session [39m[32m200[39m [90m16686 ms - 1189[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session/bd148c12-cc62-4508-9a9b-63dc24311aff/context[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session/3e8d1efd-9317-44be-a79b-c08bb10fabbc/context[39m
 [35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
-[debug] [35m[W3C (bd148c12)][39m Calling AppiumDriver.setContext() with args: ["NATIVE_APP","bd148c12-cc62-4508-9a9b-63dc24311aff"]
-[debug] [35m[W3C (bd148c12)][39m Responding to client with driver.setContext() result: null
-[35m[HTTP][39m [37m<-- POST /session/bd148c12-cc62-4508-9a9b-63dc24311aff/context [39m[32m200[39m [90m6 ms - 14[39m
+[debug] [35m[W3C (3e8d1efd)][39m Calling AppiumDriver.setContext() with args: ["NATIVE_APP","3e8d1efd-9317-44be-a79b-c08bb10fabbc"]
+[debug] [35m[W3C (3e8d1efd)][39m Responding to client with driver.setContext() result: null
+[35m[HTTP][39m [37m<-- POST /session/3e8d1efd-9317-44be-a79b-c08bb10fabbc/context [39m[32m200[39m [90m6 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/session/bd148c12-cc62-4508-9a9b-63dc24311aff[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/session/3e8d1efd-9317-44be-a79b-c08bb10fabbc[39m
 [35m[HTTP][39m [90m{}[39m
-[debug] [35m[W3C (bd148c12)][39m Calling AppiumDriver.deleteSession() with args: ["bd148c12-cc62-4508-9a9b-63dc24311aff"]
-[debug] [35m[BaseDriver][39m Event 'quitSessionRequested' logged at 1606327864567 (15:11:04 GMT-0300 (Argentina Standard Time))
-[35m[Appium][39m Removing session bd148c12-cc62-4508-9a9b-63dc24311aff from our master session list
+[debug] [35m[W3C (3e8d1efd)][39m Calling AppiumDriver.deleteSession() with args: ["3e8d1efd-9317-44be-a79b-c08bb10fabbc"]
+[debug] [35m[BaseDriver][39m Event 'quitSessionRequested' logged at 1606404052658 (12:20:52 GMT-0300 (Argentina Standard Time))
+[35m[Appium][39m Removing session 3e8d1efd-9317-44be-a79b-c08bb10fabbc from our master session list
 [debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
 [debug] [35m[UiAutomator2][39m Deleting UiAutomator2 server session
 [debug] [35m[WD Proxy][39m Matched '/' to command name 'deleteSession'
-[debug] [35m[WD Proxy][39m Proxying [DELETE /] to [DELETE http://127.0.0.1:8200/wd/hub/session/ddef3fae-926c-4903-933e-1e52315cb1dc] with no body
-[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"ddef3fae-926c-4903-933e-1e52315cb1dc","value":null}
+[debug] [35m[WD Proxy][39m Proxying [DELETE /] to [DELETE http://127.0.0.1:8200/wd/hub/session/6960ea39-ad19-4a4f-a950-141bab330d07] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"6960ea39-ad19-4a4f-a950-141bab330d07","value":null}
 [debug] [35m[ADB][39m Running '/Users/cgarcete/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.loginexample'
 [debug] [35m[Logcat][39m Stopping logcat capture
 [debug] [35m[ADB][39m Removing forwarded port socket connection: 8200 
 [debug] [35m[ADB][39m Running '/Users/cgarcete/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 forward --remove tcp:8200'
 [35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
 [debug] [35m[ADB][39m Running '/Users/cgarcete/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
-[debug] [35m[BaseDriver][39m Event 'quitSessionFinished' logged at 1606327864776 (15:11:04 GMT-0300 (Argentina Standard Time))
-[debug] [35m[W3C (bd148c12)][39m Received response: null
-[debug] [35m[W3C (bd148c12)][39m But deleting session, so not returning
-[debug] [35m[W3C (bd148c12)][39m Responding to client with driver.deleteSession() result: null
-[debug] [35m[W3C (bd148c12)][39m Destroying socket connection
-[35m[HTTP][39m [37m<-- DELETE /session/bd148c12-cc62-4508-9a9b-63dc24311aff [39m[32m200[39m [90m211 ms - 14[39m
+[debug] [35m[Instrumentation][39m .
+[debug] [35m[BaseDriver][39m Event 'quitSessionFinished' logged at 1606404052959 (12:20:52 GMT-0300 (Argentina Standard Time))
+[debug] [35m[W3C (3e8d1efd)][39m Received response: null
+[debug] [35m[W3C (3e8d1efd)][39m But deleting session, so not returning
+[debug] [35m[W3C (3e8d1efd)][39m Responding to client with driver.deleteSession() result: null
+[debug] [35m[W3C (3e8d1efd)][39m Destroying socket connection
+[35m[HTTP][39m [37m<-- DELETE /session/3e8d1efd-9317-44be-a79b-c08bb10fabbc [39m[32m200[39m [90m302 ms - 14[39m
 [35m[HTTP][39m [90m[39m
 [35m[Appium][39m Received SIGTERM - shutting down
 [debug] [35m[Appium][39m There are no active sessions for cleanup
