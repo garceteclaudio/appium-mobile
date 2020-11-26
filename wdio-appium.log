@@ -1,7 +1,7 @@
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
 [35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"bundleId":"org.reactjs.native.example.loginExample","platformName":"iOS","noReset":false,"automationName":"XCUITest","udid":"65D5A6EE-FBF1-4C15-A277-6F3C88D9A335","deviceName":"iphone11ios13","app":"/Users/cgarcete/Desktop/proyectos propios/bitriseTestAuto/appium-mobile/apps/loginExample.app","platformVersion":"13.0"},"firstMatch":[{}]},"desiredCapabilities":{"bundleId":"org.reactjs.native.example.loginExample","platformName":"iOS","noReset":false,"automationName":"XCUITest","udid":"65D5A6EE-FBF1-4C15-A277-6F3C88D9A335","deviceName":"iphone11ios13","app":"/Users/cgarcete/Desktop/proyectos propios/bitriseTestAuto/appium-mobile/apps/loginExample.app","platformVersion":"13.0"}}[39m
 [debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"bundleId":"org.reactjs.native.example.loginExample","platformName":"iOS","noReset":false,"automationName":"XCUITest","udid":"65D5A6EE-FBF1-4C15-A277-6F3C88D9A335","deviceName":"iphone11ios13","app":"/Users/cgarcete/Desktop/proyectos propios/bitriseTestAuto/appium-mobile/apps/loginExample.app","platformVersion":"13.0"},null,{"alwaysMatch":{"bundleId":"org.reactjs.native.example.loginExample","platformName":"iOS","noReset":false,"automationName":"XCUITest","udid":"65D5A6EE-FBF1-4C15-A277-6F3C88D9A335","deviceName":"iphone11ios13","app":"/Users/cgarcete/Desktop/proyectos propios/bitriseTestAuto/appium-mobile/apps/loginExample.app","platformVersion":"13.0"},"firstMatch":[{}]}]
-[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1606413115713 (14:51:55 GMT-0300 (Argentina Standard Time))
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1606413788178 (15:03:08 GMT-0300 (Argentina Standard Time))
 [35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
 [35m[BaseDriver][39m   bundleId
 [35m[BaseDriver][39m   noReset
@@ -27,24 +27,24 @@
 [debug] [35m[BaseDriver][39m     {}
 [debug] [35m[BaseDriver][39m   ]
 [debug] [35m[BaseDriver][39m }
-[35m[BaseDriver][39m Session created with session id: 3b1cb288-6dad-490d-baea-f36ce7573a84
+[35m[BaseDriver][39m Session created with session id: c1cec7b8-9344-4122-818e-6958768fbd33
 [debug] [35m[XCUITest][39m Current user: 'cgarcete'
 [debug] [35m[XCUITest][39m Available devices: 
 [debug] [35m[XCUITest][39m No real device with udid '65D5A6EE-FBF1-4C15-A277-6F3C88D9A335'. Looking for simulator
 [35m[iOSSim][39m Constructing iOS simulator for Xcode version 12.0.1 with udid '65D5A6EE-FBF1-4C15-A277-6F3C88D9A335'
 [35m[XCUITest][39m Determining device to run tests on: udid: '65D5A6EE-FBF1-4C15-A277-6F3C88D9A335', real device: false
-[debug] [35m[BaseDriver][39m Event 'xcodeDetailsRetrieved' logged at 1606413117617 (14:51:57 GMT-0300 (Argentina Standard Time))
+[debug] [35m[BaseDriver][39m Event 'xcodeDetailsRetrieved' logged at 1606413789903 (15:03:09 GMT-0300 (Argentina Standard Time))
 [35m[BaseDriver][39m Using local app '/Users/cgarcete/Desktop/proyectos propios/bitriseTestAuto/appium-mobile/apps/loginExample.app'
-[debug] [35m[BaseDriver][39m Event 'appConfigured' logged at 1606413117619 (14:51:57 GMT-0300 (Argentina Standard Time))
+[debug] [35m[BaseDriver][39m Event 'appConfigured' logged at 1606413789905 (15:03:09 GMT-0300 (Argentina Standard Time))
 [debug] [35m[XCUITest][39m Checking whether app '/Users/cgarcete/Desktop/proyectos propios/bitriseTestAuto/appium-mobile/apps/loginExample.app' is actually present on file system
 [debug] [35m[XCUITest][39m App is present
-[debug] [35m[BaseDriver][39m Event 'resetStarted' logged at 1606413117620 (14:51:57 GMT-0300 (Argentina Standard Time))
+[debug] [35m[BaseDriver][39m Event 'resetStarted' logged at 1606413789906 (15:03:09 GMT-0300 (Argentina Standard Time))
 [35m[XCUITest][39m Not scrubbing third party app in anticipation of uninstall
-[debug] [35m[BaseDriver][39m Event 'resetComplete' logged at 1606413117848 (14:51:57 GMT-0300 (Argentina Standard Time))
+[debug] [35m[BaseDriver][39m Event 'resetComplete' logged at 1606413790128 (15:03:10 GMT-0300 (Argentina Standard Time))
 [35m[WebDriverAgent][39m Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent'
 [35m[WebDriverAgent][39m Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
 [debug] [35m[IOSSimulatorLog][39m Starting log capture for iOS Simulator with udid '65D5A6EE-FBF1-4C15-A277-6F3C88D9A335' using simctl
-[debug] [35m[BaseDriver][39m Event 'logCaptureStarted' logged at 1606413118247 (14:51:58 GMT-0300 (Argentina Standard Time))
+[debug] [35m[BaseDriver][39m Event 'logCaptureStarted' logged at 1606413790520 (15:03:10 GMT-0300 (Argentina Standard Time))
 [35m[XCUITest][39m Setting up simulator
 [debug] [35m[iOS][39m No reason to set locale
 [debug] [35m[iOS][39m No iOS / app preferences to set
@@ -54,15 +54,13 @@
 [debug] [35m[iOSSim][39m Updated 65D5A6EE-FBF1-4C15-A277-6F3C88D9A335 Simulator preferences at '/Users/cgarcete/Library/Preferences/com.apple.iphonesimulator.plist' with {"DevicePreferences":{"65D5A6EE-FBF1-4C15-A277-6F3C88D9A335":{"ConnectHardwareKeyboard":false}},"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false}
 [debug] [35m[iOSSim][39m Got Simulator UI client PID: 547
 [35m[iOSSim][39m Both Simulator with UDID '65D5A6EE-FBF1-4C15-A277-6F3C88D9A335' and the UI client are currently running
-[debug] [35m[BaseDriver][39m Event 'simStarted' logged at 1606413118456 (14:51:58 GMT-0300 (Argentina Standard Time))
+[debug] [35m[BaseDriver][39m Event 'simStarted' logged at 1606413790731 (15:03:10 GMT-0300 (Argentina Standard Time))
 [debug] [35m[XCUITest][39m Verifying application platform
 [debug] [35m[XCUITest][39m CFBundleSupportedPlatforms: ["iPhoneSimulator"]
 [debug] [35m[XCUITest][39m Reset requested. Removing app with id 'org.reactjs.native.example.loginExample' from the device
 [debug] [35m[XCUITest][39m Installing '/Users/cgarcete/Desktop/proyectos propios/bitriseTestAuto/appium-mobile/apps/loginExample.app' on Simulator with UUID '65D5A6EE-FBF1-4C15-A277-6F3C88D9A335'...
-[debug] [35m[WebDriverAgent][39m Parsed BUILD_DIR configuration value: '/Users/cgarcete/Library/Developer/Xcode/DerivedData/WebDriverAgent-ciegwgvxzxdrqthilmrmczmqvrgu/Build/Products'
-[debug] [35m[WebDriverAgent][39m Got derived data root: '/Users/cgarcete/Library/Developer/Xcode/DerivedData/WebDriverAgent-ciegwgvxzxdrqthilmrmczmqvrgu'
 [debug] [35m[XCUITest][39m The app has been installed successfully.
-[debug] [35m[BaseDriver][39m Event 'appInstalled' logged at 1606413121211 (14:52:01 GMT-0300 (Argentina Standard Time))
+[debug] [35m[BaseDriver][39m Event 'appInstalled' logged at 1606413793501 (15:03:13 GMT-0300 (Argentina Standard Time))
 [debug] [35m[WebDriverAgent][39m No obsolete cached processes from previous WDA sessions listening on port 8100 have been found
 [35m[DevCon Factory][39m Requesting connection for device 65D5A6EE-FBF1-4C15-A277-6F3C88D9A335 on local port 8100
 [debug] [35m[DevCon Factory][39m Cached connections count: 0
@@ -76,57 +74,59 @@
 [35m[WebDriverAgent][39m Will reuse previously cached WDA instance at 'http://127.0.0.1:8100/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 8100 if this is an undesired behavior.
 [debug] [35m[XCUITest][39m Trying to start WebDriverAgent 2 times with 10000ms interval
 [debug] [35m[XCUITest][39m These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
-[debug] [35m[BaseDriver][39m Event 'wdaStartAttempted' logged at 1606413121355 (14:52:01 GMT-0300 (Argentina Standard Time))
+[debug] [35m[BaseDriver][39m Event 'wdaStartAttempted' logged at 1606413793587 (15:03:13 GMT-0300 (Argentina Standard Time))
 [35m[WebDriverAgent][39m Using provided WebdriverAgent at 'http://127.0.0.1:8100/'
 [debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
 [debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
 [debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"14.0","version":"13.0"},"ios":{"simulatorVersion":"13.0","ip":"192.168.1.2"},"ready":true,"build":{"upgradedAt":"1606402440871","time":"Nov 26 2020 11:54:13","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
-[debug] [35m[BaseDriver][39m Event 'wdaSessionAttempted' logged at 1606413121360 (14:52:01 GMT-0300 (Argentina Standard Time))
+[debug] [35m[BaseDriver][39m Event 'wdaSessionAttempted' logged at 1606413793591 (15:03:13 GMT-0300 (Argentina Standard Time))
 [debug] [35m[XCUITest][39m Sending createSession command to WDA
 [debug] [35m[WD Proxy][39m Matched '/session' to command name 'createSession'
 [debug] [35m[WD Proxy][39m Proxying [POST /session] to [POST http://127.0.0.1:8100/session] with body: {"capabilities":{"firstMatch":[{"bundleId":"org.reactjs.native.example.loginExample","arguments":[],"environment":{},"eventloopIdleDelaySec":0,"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true}],"alwaysMatch":{}}}
-[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"sessionId":"79C700D5-7D48-4996-823D-F653227C886C","capabilities":{"device":"iphone","browserName":"loginExample","sdkVersion":"13.0","CFBundleIdentifier":"org.reactjs.native.example.loginExample"}},"sessionId":"79C700D5-7D48-4996-823D-F653227C886C"}
+[debug] [35m[WebDriverAgent][39m Parsed BUILD_DIR configuration value: '/Users/cgarcete/Library/Developer/Xcode/DerivedData/WebDriverAgent-ciegwgvxzxdrqthilmrmczmqvrgu/Build/Products'
+[debug] [35m[WebDriverAgent][39m Got derived data root: '/Users/cgarcete/Library/Developer/Xcode/DerivedData/WebDriverAgent-ciegwgvxzxdrqthilmrmczmqvrgu'
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"sessionId":"DA9B78BC-497C-475B-B968-9155258DD9B2","capabilities":{"device":"iphone","browserName":"loginExample","sdkVersion":"13.0","CFBundleIdentifier":"org.reactjs.native.example.loginExample"}},"sessionId":"DA9B78BC-497C-475B-B968-9155258DD9B2"}
 [35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
-[debug] [35m[BaseDriver][39m Event 'wdaSessionStarted' logged at 1606413122697 (14:52:02 GMT-0300 (Argentina Standard Time))
-[debug] [35m[BaseDriver][39m Event 'wdaStarted' logged at 1606413122697 (14:52:02 GMT-0300 (Argentina Standard Time))
+[debug] [35m[BaseDriver][39m Event 'wdaSessionStarted' logged at 1606413794864 (15:03:14 GMT-0300 (Argentina Standard Time))
+[debug] [35m[BaseDriver][39m Event 'wdaStarted' logged at 1606413794864 (15:03:14 GMT-0300 (Argentina Standard Time))
 [35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
-[debug] [35m[BaseDriver][39m Event 'orientationSet' logged at 1606413122697 (14:52:02 GMT-0300 (Argentina Standard Time))
+[debug] [35m[BaseDriver][39m Event 'orientationSet' logged at 1606413794864 (15:03:14 GMT-0300 (Argentina Standard Time))
 [debug] [35m[BaseDriver][39m The value of 'elementResponseAttributes' setting did not change. Skipping the update for it
 [debug] [35m[BaseDriver][39m The value of 'shouldUseCompactResponses' setting did not change. Skipping the update for it
-[35m[Appium][39m New XCUITestDriver session created successfully, session 3b1cb288-6dad-490d-baea-f36ce7573a84 added to master session list
-[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1606413122699 (14:52:02 GMT-0300 (Argentina Standard Time))
-[debug] [35m[W3C (3b1cb288)][39m Cached the protocol value 'W3C' for the new session 3b1cb288-6dad-490d-baea-f36ce7573a84
-[debug] [35m[W3C (3b1cb288)][39m Responding to client with driver.createSession() result: {"capabilities":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"platformName":"iOS","bundleId":"org.reactjs.native.example.loginExample","noReset":false,"automationName":"XCUITest","udid":"65D5A6EE-FBF1-4C15-A277-6F3C88D9A335","deviceName":"iphone11ios13","app":"/Users/cgarcete/Desktop/proyectos propios/bitriseTestAuto/appium-mobile/apps/loginExample.app","platformVersion":"13.0"}}
-[35m[HTTP][39m [37m<-- POST /session [39m[32m200[39m [90m6991 ms - 595[39m
+[35m[Appium][39m New XCUITestDriver session created successfully, session c1cec7b8-9344-4122-818e-6958768fbd33 added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1606413794865 (15:03:14 GMT-0300 (Argentina Standard Time))
+[debug] [35m[W3C (c1cec7b8)][39m Cached the protocol value 'W3C' for the new session c1cec7b8-9344-4122-818e-6958768fbd33
+[debug] [35m[W3C (c1cec7b8)][39m Responding to client with driver.createSession() result: {"capabilities":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"platformName":"iOS","bundleId":"org.reactjs.native.example.loginExample","noReset":false,"automationName":"XCUITest","udid":"65D5A6EE-FBF1-4C15-A277-6F3C88D9A335","deviceName":"iphone11ios13","app":"/Users/cgarcete/Desktop/proyectos propios/bitriseTestAuto/appium-mobile/apps/loginExample.app","platformVersion":"13.0"}}
+[35m[HTTP][39m [37m<-- POST /session [39m[32m200[39m [90m6692 ms - 595[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session/3b1cb288-6dad-490d-baea-f36ce7573a84/context[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session/c1cec7b8-9344-4122-818e-6958768fbd33/context[39m
 [35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
-[debug] [35m[W3C (3b1cb288)][39m Calling AppiumDriver.setContext() with args: ["NATIVE_APP","3b1cb288-6dad-490d-baea-f36ce7573a84"]
+[debug] [35m[W3C (c1cec7b8)][39m Calling AppiumDriver.setContext() with args: ["NATIVE_APP","c1cec7b8-9344-4122-818e-6958768fbd33"]
 [debug] [35m[XCUITest][39m Executing command 'setContext'
 [debug] [35m[XCUITest][39m Attempting to set context to 'NATIVE_APP' from 'NATIVE_APP'
 [debug] [35m[XCUITest][39m Already in 'NATIVE_APP' context. Doing nothing.
-[debug] [35m[W3C (3b1cb288)][39m Responding to client with driver.setContext() result: null
-[35m[HTTP][39m [37m<-- POST /session/3b1cb288-6dad-490d-baea-f36ce7573a84/context [39m[32m200[39m [90m6 ms - 14[39m
+[debug] [35m[W3C (c1cec7b8)][39m Responding to client with driver.setContext() result: null
+[35m[HTTP][39m [37m<-- POST /session/c1cec7b8-9344-4122-818e-6958768fbd33/context [39m[32m200[39m [90m6 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/session/3b1cb288-6dad-490d-baea-f36ce7573a84[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/session/c1cec7b8-9344-4122-818e-6958768fbd33[39m
 [35m[HTTP][39m [90m{}[39m
-[debug] [35m[W3C (3b1cb288)][39m Calling AppiumDriver.deleteSession() with args: ["3b1cb288-6dad-490d-baea-f36ce7573a84"]
-[debug] [35m[BaseDriver][39m Event 'quitSessionRequested' logged at 1606413125831 (14:52:05 GMT-0300 (Argentina Standard Time))
-[35m[Appium][39m Removing session 3b1cb288-6dad-490d-baea-f36ce7573a84 from our master session list
-[debug] [35m[WD Proxy][39m Matched '/session/3b1cb288-6dad-490d-baea-f36ce7573a84' to command name 'deleteSession'
-[debug] [35m[WD Proxy][39m Proxying [DELETE /session/3b1cb288-6dad-490d-baea-f36ce7573a84] to [DELETE http://127.0.0.1:8100/session/79C700D5-7D48-4996-823D-F653227C886C] with no body
+[debug] [35m[W3C (c1cec7b8)][39m Calling AppiumDriver.deleteSession() with args: ["c1cec7b8-9344-4122-818e-6958768fbd33"]
+[debug] [35m[BaseDriver][39m Event 'quitSessionRequested' logged at 1606413798048 (15:03:18 GMT-0300 (Argentina Standard Time))
+[35m[Appium][39m Removing session c1cec7b8-9344-4122-818e-6958768fbd33 from our master session list
+[debug] [35m[WD Proxy][39m Matched '/session/c1cec7b8-9344-4122-818e-6958768fbd33' to command name 'deleteSession'
+[debug] [35m[WD Proxy][39m Proxying [DELETE /session/c1cec7b8-9344-4122-818e-6958768fbd33] to [DELETE http://127.0.0.1:8100/session/DA9B78BC-497C-475B-B968-9155258DD9B2] with no body
 [debug] [35m[WD Proxy][39m Got response with status 200: {"value":null,"sessionId":null}
 [35m[DevCon Factory][39m Releasing connections for 65D5A6EE-FBF1-4C15-A277-6F3C88D9A335 device on any port number
 [35m[DevCon Factory][39m Found cached connections to release: ["65D5A6EE-FBF1-4C15-A277-6F3C88D9A335:8100"]
 [debug] [35m[DevCon Factory][39m Cached connections count: 0
 [debug] [35m[XCUITest][39m Not clearing log files. Use `clearSystemFiles` capability to turn on.
 [debug] [35m[IOSSimulatorLog][39m Stopping iOS log capture
-[debug] [35m[BaseDriver][39m Event 'quitSessionFinished' logged at 1606413126878 (14:52:06 GMT-0300 (Argentina Standard Time))
-[debug] [35m[W3C (3b1cb288)][39m Received response: null
-[debug] [35m[W3C (3b1cb288)][39m But deleting session, so not returning
-[debug] [35m[W3C (3b1cb288)][39m Responding to client with driver.deleteSession() result: null
-[debug] [35m[W3C (3b1cb288)][39m Destroying socket connection
-[35m[HTTP][39m [37m<-- DELETE /session/3b1cb288-6dad-490d-baea-f36ce7573a84 [39m[32m200[39m [90m1049 ms - 14[39m
+[debug] [35m[BaseDriver][39m Event 'quitSessionFinished' logged at 1606413799101 (15:03:19 GMT-0300 (Argentina Standard Time))
+[debug] [35m[W3C (c1cec7b8)][39m Received response: null
+[debug] [35m[W3C (c1cec7b8)][39m But deleting session, so not returning
+[debug] [35m[W3C (c1cec7b8)][39m Responding to client with driver.deleteSession() result: null
+[debug] [35m[W3C (c1cec7b8)][39m Destroying socket connection
+[35m[HTTP][39m [37m<-- DELETE /session/c1cec7b8-9344-4122-818e-6958768fbd33 [39m[32m200[39m [90m1054 ms - 14[39m
 [35m[HTTP][39m [90m[39m
 [35m[Appium][39m Received SIGTERM - shutting down
 [debug] [35m[Appium][39m There are no active sessions for cleanup
