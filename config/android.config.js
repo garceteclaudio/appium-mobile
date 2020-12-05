@@ -5,8 +5,8 @@ const path = require('path');
 // Appium capabilities
 config.capabilities = [{
     platformName: 'Android',
-    noReset: false,
-    //fullReset: false,
+    // noReset: false,
+    fullReset: true,
     //maxInstances: 1,
     automationName: 'uiautomator2',
     //deviceName: AndroidInfo.deviceName(),
@@ -15,6 +15,7 @@ config.capabilities = [{
     app: path.resolve(`./apps/${AndroidInfo.appName()}`),
     appPackage: "com.loginexample",
     appActivity: "com.loginexample.MainActivity",
+
 }];
 
 config.cucumberOpts.tagExpression = '@androidApp'; // pass tag to run tests specific to android
