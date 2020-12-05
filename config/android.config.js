@@ -15,7 +15,7 @@ config.capabilities = [{
     app: path.resolve(`./apps/${AndroidInfo.appName()}`),
     appPackage: "com.loginexample",
     appActivity: "com.loginexample.MainActivity",
-
+    newCommandTimeout: "8000",
 }];
 
 config.cucumberOpts.tagExpression = '@androidApp'; // pass tag to run tests specific to android
@@ -24,3 +24,4 @@ exports.config = config;
 
 //emulator -list-avds
 // emulator -avd Pixel_3_API_29
+
