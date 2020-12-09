@@ -95,7 +95,7 @@ exports.config = {
       {
         // To use your own installation of Appium, e.g. globally installed,
         // specify the command which should be started.
-        // command : 'appium',
+        command: "appium",
         logPath: "./",
         // Appium service options here
         // ...
