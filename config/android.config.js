@@ -7,6 +7,8 @@ const path = require("path");
 //Todos los permisos true, noReset=false y fullRset comentado
 config.capabilities = [
   {
+    //probar con  appWaitDuration: 30000,
+    appWaitDuration: 50000,
     platformName: "Android",
     noReset: false,
     // fullReset: true,
@@ -18,7 +20,7 @@ config.capabilities = [
     app: path.resolve(`./apps/${AndroidInfo.appName()}`),
     appPackage: "com.loginexample",
     appActivity: "com.loginexample.MainActivity",
-    newCommandTimeout: "8000",
+    // newCommandTimeout: "8000",
     skipServerInstallation: true,
   },
 ];
