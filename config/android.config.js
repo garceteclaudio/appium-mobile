@@ -22,6 +22,8 @@ config.capabilities = [
     appActivity: "com.loginexample.MainActivity",
     // newCommandTimeout: "8000",
     skipServerInstallation: true,
+    // appWaitPackage: 20000,
+    // appWaitActivity: 20000,
   },
 ];
 
