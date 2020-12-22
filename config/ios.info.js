@@ -3,7 +3,7 @@ class IosInfo {
   // xcrun simctl list | egrep '(Booted)'
   // instruments -s devices
   static deviceName() {
-    return "iPhone 11 Pro Max (14.3)"; // pass the device name
+    return "iPhone 11 Pro (14.3)"; // pass the device name
   }
 
   static platFormVersion() {
