@@ -7,7 +7,7 @@ class IosInfo {
   }
 
   static platFormVersion() {
-    return "13.0"; // pass the platform version
+    return "14.3"; // pass the platform version
   }
 
   static appName() {
