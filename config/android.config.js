@@ -8,6 +8,7 @@ const path = require("path");
 config.capabilities = [
   {
     //probar con  appWaitDuration: 30000,
+    newCommandTimeout: 45000,
     appWaitDuration: 50000,
     platformName: "Android",
     noReset: false,
