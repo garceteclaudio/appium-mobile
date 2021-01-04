@@ -6,9 +6,12 @@
 ### Node ###
 # Logs
 npm-debug.log*
+wdio-appium.log*
+package-lock.json
 
 # Dependency directories
-node_modules/
+node_modules
+reports
 
 # Optional npm cache directory
 .npm
