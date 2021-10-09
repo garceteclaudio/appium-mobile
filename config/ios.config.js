@@ -8,20 +8,14 @@ config.capabilities = [
     // appWaitDuration: 50000,
     // noReset: true,
     //
-    //
-    //
-    //
-    // bundleId: "org.reactjs.native.example.loginExample",
+    bundleId: "org.reactjs.native.example.loginExample",
     platformName: "iOS",
     automationName: "XCUITest",
-    //bitrise
-    udid: "32DF006A-861F-4291-801D-FA5F4CDF4394",
-    //local
-    // udid: "65D5A6EE-FBF1-4C15-A277-6F3C88D9A335",
+    udid: IosInfo.UDID(),
     deviceName: IosInfo.deviceName(),
     app: path.resolve(`./apps/${IosInfo.appName()}`),
     platformVersion: IosInfo.platFormVersion(),
-    isHeadless: true,
+    // isHeadless: true,
   },
 ];
 
