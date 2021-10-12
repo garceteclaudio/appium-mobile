@@ -1,6 +1,8 @@
 const { config } = require("./wdio.conf");
-const AndroidInfo = require("./android.info");
+const AndroidInfo = require("./devices/android.info");
 const path = require("path");
+
+const myAndroidInfoDevice = require("./devices/android.info.physical.device.js");
 
 // Appium capabilities
 
@@ -17,10 +19,10 @@ config.capabilities = [
     // fullReset: true,
     //maxInstances: 1,
     automationName: "UiAutomator2",
-    // deviceName: AndroidInfo.deviceName(),
-    udid: AndroidInfo.UDID(),
-    platformVersion: AndroidInfo.platFormVersion(),
-    // app: path.resolve(`./apps/${AndroidInfo.appName()}`),
+    deviceName: myAndroidInfoDevice.deviceName(),
+    udid: myAndroidInfoDevice.UDID(),
+    platformVersion: myAndroidInfoDevice.platFormVersion(),
+    app: path.resolve(`./apps/${AndroidInfo.appName()}`),
     // isHeadless: true,
     appPackage: "com.loginexample",
     appActivity: "com.loginexample.MainActivity",
